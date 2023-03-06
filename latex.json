@@ -1,0 +1,65 @@
+{
+	"Date": {
+		"prefix": "da",
+		"body": [
+			"$CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR"
+		],
+		"description": "display current date"
+	},
+	"Inline Math": {
+		"prefix": "mk",
+		"body": [
+			"$ $1 $ "
+		],
+		"description": "inline math"
+	},
+	"Display Math": {
+		"prefix": "dm",
+		"body": [
+			"\\[\n$1\n\\]"
+		],
+		"description": "display math"
+	},
+	"Fraction": {
+		"prefix": "fr",
+		"body": [
+			"\\frac{$1}{$2}"
+		],
+		"description": "fraction"
+	},
+	"Limit": {
+		"prefix": "lim",
+		"body": [
+			"\\lim_{$1\\to $2}"
+		],
+		"description": "limit"
+	},
+	"Infinity": {
+		"prefix": "inf",
+		"body": [
+			"\\infty"
+		],
+		"description": "infinity"
+	},
+	"Complement": {
+		"prefix": "com",
+		"body": [
+			"^{$1}"
+		],
+		"description": "complement"
+	},
+	"Box": {
+		"prefix": "box",
+		"body": [
+			"\\fbox{$1}"
+		],
+		"description": "complement"
+	},
+	"Subsection": {
+		"prefix": "sb",
+		"body": [
+			"\\subsection{$1}\n$2"
+		],
+		"description": "Subsection"
+	}
+}
